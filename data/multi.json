@@ -1,0 +1,25 @@
+{
+    "prompts": "a cat, and a motorcycle.",
+    "orientations": [
+        [
+            [
+                [
+                    43,
+                    90,
+                    90
+                ]
+            ],
+            [
+                [
+                    355,
+                    90,
+                    90
+                ]
+            ]
+        ]
+    ],
+    "phrases": [
+        "cat",
+        "motorcycle"
+    ]
+}

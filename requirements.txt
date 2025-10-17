@@ -1,0 +1,9 @@
+diffusers
+scipy
+tqdm
+omegaconf
+transformers
+accelerate
+sentencepiece
+protobuf
+huggingface_hub

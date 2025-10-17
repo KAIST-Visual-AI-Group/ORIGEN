@@ -1,0 +1,17 @@
+{
+    "prompts": "a train sits on the tracks by the platform.",
+    "orientations": [
+        [
+            [
+                [
+                    317,
+                    90,
+                    90
+                ]
+            ]
+        ]
+    ],
+    "phrases": [
+        "train"
+    ]
+}

@@ -1,0 +1,6 @@
+.vscode/
+results*
+outputs/
+src/__pycache__/
+render/__pycache__/
+src/orientation_grounding/__pycache__

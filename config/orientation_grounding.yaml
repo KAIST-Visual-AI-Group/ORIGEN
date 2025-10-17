@@ -1,0 +1,54 @@
+# General Config
+seed: 0
+height: 512
+width: 512
+
+#####################################################
+# Reward Model Config
+#####################################################
+
+decode_to_unnormalized: false
+
+azimuth_only: false
+polar_only: false
+early_stop: true
+scaling_factor: 0.85
+
+
+#####################################################
+# FLUX Config
+#####################################################
+model: schnell
+
+mini_batch_size: 1
+grad_minibatch_size: 1
+true_cfg_scale: 1.0
+guidance_scale: 3.5  # This is not used in FLUX.1-Schnell
+
+original_scheduler: linear
+
+time_schedule: linear
+
+return_attn_maps: false
+
+#####################################################
+# ORIGEN Config
+#####################################################
+
+method: origen 
+
+step_size: 0.3 
+eta: 0.8
+num_steps: 50
+custom_call_function_name: all 
+
+# Step Size Scheduler Config
+step_scheduler: adaptive  # [uniform, adaptive]
+s_min: 0.333333333
+s_max: 1.333333333
+k: 0.3
+
+# Practical Config
+save_vram: true
+grad_clip: 0.2
+grad_norm: null
